@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { StyleSheet, View, Text, NativeEventEmitter } from 'react-native';
-import {Accelerometer} from "atlet-sensors-library";
+import { Accelerometer } from "atlet-sensors-library";
 
 export default function App() {
   const [result, setResult] = React.useState({
