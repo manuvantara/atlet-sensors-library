@@ -50,9 +50,4 @@ const Magnetometer = NativeModules.Magnetometer
       }
     );
 
-export {
-  Accelerometer,
-  Gravity,
-  Gyroscope,
-  Magnetometer
-};
+export { Accelerometer, Gravity, Gyroscope, Magnetometer };
